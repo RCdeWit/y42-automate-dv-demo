@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: tpch_sample
+    config:
+      y42:
+        apiVersion: v3
+    meta:
+      experts:
+        users:
+          - rob.dewit@y42.com
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF10
+    tables:
+      - name: CUSTOMER
+        identifier: CUSTOMER
+      - name: LINEITEM
+        identifier: LINEITEM
+      - name: ORDERS
+        identifier: ORDERS
+      - name: PARTSUPP
+        identifier: PARTSUPP
+      - name: REGION
+        identifier: REGION
+      - name: SUPPLIER
+        identifier: SUPPLIER
+      - name: NATION
+        identifier: NATION
+      - name: PART
+        identifier: PART
