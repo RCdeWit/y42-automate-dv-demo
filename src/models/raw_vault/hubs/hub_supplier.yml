@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: hub_supplier
+    columns:
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: SUPPLIERKEY
+        data_type: NUMBER
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

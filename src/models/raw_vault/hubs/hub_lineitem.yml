@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: hub_lineitem
+    columns:
+      - name: LINEITEM_PK
+        data_type: BINARY
+      - name: LINENUMBER
+        data_type: NUMBER
+      - name: ORDERKEY
+        data_type: NUMBER
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

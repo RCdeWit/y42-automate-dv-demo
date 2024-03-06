@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: t_link_transactions
+    columns:
+      - name: TRANSACTION_PK
+        data_type: BINARY
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: ORDER_PK
+        data_type: BINARY
+      - name: TRANSACTION_NUMBER
+        data_type: NUMBER
+      - name: TRANSACTION_DATE
+        data_type: DATE
+      - name: TYPE
+        data_type: TEXT
+      - name: AMOUNT
+        data_type: NUMBER
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

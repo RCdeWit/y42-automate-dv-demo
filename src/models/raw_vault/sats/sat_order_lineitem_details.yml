@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: sat_order_lineitem_details
+    columns:
+      - name: LINEITEM_PK
+        data_type: BINARY
+      - name: LINEITEM_HASHDIFF
+        data_type: BINARY
+      - name: COMMITDATE
+        data_type: DATE
+      - name: DISCOUNT
+        data_type: NUMBER
+      - name: EXTENDEDPRICE
+        data_type: NUMBER
+      - name: LINE_COMMENT
+        data_type: TEXT
+      - name: QUANTITY
+        data_type: NUMBER
+      - name: RECEIPTDATE
+        data_type: DATE
+      - name: RETURNFLAG
+        data_type: TEXT
+      - name: SHIPDATE
+        data_type: DATE
+      - name: SHIPINSTRUCT
+        data_type: TEXT
+      - name: SHIPMODE
+        data_type: TEXT
+      - name: TAX
+        data_type: NUMBER
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

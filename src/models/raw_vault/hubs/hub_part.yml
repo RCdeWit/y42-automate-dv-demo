@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: hub_part
+    columns:
+      - name: PART_PK
+        data_type: BINARY
+      - name: PARTKEY
+        data_type: NUMBER
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

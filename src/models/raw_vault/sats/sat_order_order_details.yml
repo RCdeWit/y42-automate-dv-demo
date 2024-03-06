@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: sat_order_order_details
+    columns:
+      - name: ORDER_PK
+        data_type: BINARY
+      - name: ORDER_HASHDIFF
+        data_type: BINARY
+      - name: ORDERSTATUS
+        data_type: TEXT
+      - name: TOTALPRICE
+        data_type: NUMBER
+      - name: ORDERDATE
+        data_type: DATE
+      - name: ORDERPRIORITY
+        data_type: TEXT
+      - name: CLERK
+        data_type: TEXT
+      - name: SHIPPRIORITY
+        data_type: NUMBER
+      - name: ORDER_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

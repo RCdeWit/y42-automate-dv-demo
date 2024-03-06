@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: link_supplier_nation
+    columns:
+      - name: LINK_SUPPLIER_NATION_PK
+        data_type: BINARY
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: NATION_PK
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

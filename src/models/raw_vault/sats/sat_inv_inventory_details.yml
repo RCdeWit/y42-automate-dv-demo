@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: sat_inv_inventory_details
+    columns:
+      - name: INVENTORY_PK
+        data_type: BINARY
+      - name: INVENTORY_HASHDIFF
+        data_type: BINARY
+      - name: AVAILQTY
+        data_type: NUMBER
+      - name: SUPPLYCOST
+        data_type: NUMBER
+      - name: PART_SUPPLY_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

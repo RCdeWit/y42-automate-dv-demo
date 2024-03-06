@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: sat_order_customer_details
+    columns:
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: CUSTOMER_HASHDIFF
+        data_type: BINARY
+      - name: CUSTOMER_NAME
+        data_type: TEXT
+      - name: CUSTOMER_ADDRESS
+        data_type: TEXT
+      - name: CUSTOMER_PHONE
+        data_type: TEXT
+      - name: CUSTOMER_ACCBAL
+        data_type: NUMBER
+      - name: CUSTOMER_MKTSEGMENT
+        data_type: TEXT
+      - name: CUSTOMER_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

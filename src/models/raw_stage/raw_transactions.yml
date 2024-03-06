@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: raw_transactions
+    columns:
+      - name: ORDER_ID
+        data_type: NUMBER
+      - name: CUSTOMER_ID
+        data_type: NUMBER
+      - name: ORDER_DATE
+        data_type: DATE
+      - name: TRANSACTION_DATE
+        data_type: DATE
+      - name: TRANSACTION_NUMBER
+        data_type: NUMBER
+      - name: AMOUNT
+        data_type: NUMBER
+      - name: TYPE
+        data_type: TEXT

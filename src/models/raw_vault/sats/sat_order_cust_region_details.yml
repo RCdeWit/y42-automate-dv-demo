@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: sat_order_cust_region_details
+    columns:
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: CUSTOMER_REGION_HASHDIFF
+        data_type: BINARY
+      - name: CUSTOMER_REGION_NAME
+        data_type: TEXT
+      - name: CUSTOMER_REGION_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

@@ -1,0 +1,91 @@
+version: 2
+
+models:
+  - name: v_stg_inventory
+    columns:
+      - name: PARTKEY
+        data_type: NUMBER
+      - name: SUPPLIERKEY
+        data_type: NUMBER
+      - name: AVAILQTY
+        data_type: NUMBER
+      - name: SUPPLYCOST
+        data_type: NUMBER
+      - name: PART_SUPPLY_COMMENT
+        data_type: TEXT
+      - name: SUPPLIER_NAME
+        data_type: TEXT
+      - name: SUPPLIER_ADDRESS
+        data_type: TEXT
+      - name: SUPPLIER_NATION_KEY
+        data_type: NUMBER
+      - name: SUPPLIER_PHONE
+        data_type: TEXT
+      - name: SUPPLIER_ACCTBAL
+        data_type: NUMBER
+      - name: SUPPLIER_COMMENT
+        data_type: TEXT
+      - name: PART_NAME
+        data_type: TEXT
+      - name: PART_MFGR
+        data_type: TEXT
+      - name: PART_BRAND
+        data_type: TEXT
+      - name: PART_TYPE
+        data_type: TEXT
+      - name: PART_SIZE
+        data_type: NUMBER
+      - name: PART_CONTAINER
+        data_type: TEXT
+      - name: PART_RETAILPRICE
+        data_type: NUMBER
+      - name: PART_COMMENT
+        data_type: TEXT
+      - name: SUPPLIER_NATION_NAME
+        data_type: TEXT
+      - name: SUPPLIER_NATION_COMMENT
+        data_type: TEXT
+      - name: SUPPLIER_REGION_KEY
+        data_type: NUMBER
+      - name: SUPPLIER_REGION_NAME
+        data_type: TEXT
+      - name: SUPPLIER_REGION_COMMENT
+        data_type: TEXT
+      - name: NATION_KEY
+        data_type: NUMBER
+      - name: REGION_KEY
+        data_type: NUMBER
+      - name: RECORD_SOURCE
+        data_type: TEXT
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: SUPPLIER_NATION_PK
+        data_type: BINARY
+      - name: SUPPLIER_REGION_PK
+        data_type: BINARY
+      - name: REGION_PK
+        data_type: BINARY
+      - name: NATION_PK
+        data_type: BINARY
+      - name: NATION_REGION_PK
+        data_type: BINARY
+      - name: LINK_SUPPLIER_NATION_PK
+        data_type: BINARY
+      - name: PART_PK
+        data_type: BINARY
+      - name: INVENTORY_PK
+        data_type: BINARY
+      - name: SUPPLIER_HASHDIFF
+        data_type: BINARY
+      - name: PART_HASHDIFF
+        data_type: BINARY
+      - name: SUPPLIER_REGION_HASHDIFF
+        data_type: BINARY
+      - name: SUPPLIER_NATION_HASHDIFF
+        data_type: BINARY
+      - name: INVENTORY_HASHDIFF
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: EFFECTIVE_FROM
+        data_type: DATE

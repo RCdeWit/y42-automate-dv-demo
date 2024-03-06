@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: link_customer_nation
+    columns:
+      - name: LINK_CUSTOMER_NATION_PK
+        data_type: BINARY
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: NATION_PK
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

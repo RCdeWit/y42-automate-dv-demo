@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: sat_inv_supplier_details
+    columns:
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: SUPPLIER_HASHDIFF
+        data_type: BINARY
+      - name: SUPPLIER_ADDRESS
+        data_type: TEXT
+      - name: SUPPLIER_PHONE
+        data_type: TEXT
+      - name: SUPPLIER_ACCTBAL
+        data_type: NUMBER
+      - name: SUPPLIER_NAME
+        data_type: TEXT
+      - name: SUPPLIER_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

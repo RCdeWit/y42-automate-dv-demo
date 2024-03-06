@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: link_inventory
+    columns:
+      - name: INVENTORY_PK
+        data_type: BINARY
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: PART_PK
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

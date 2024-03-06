@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: sat_inv_supp_nation_details
+    columns:
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: SUPPLIER_NATION_HASHDIFF
+        data_type: BINARY
+      - name: SUPPLIER_NATION_NAME
+        data_type: TEXT
+      - name: SUPPLIER_NATION_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: link_customer_order
+    columns:
+      - name: ORDER_CUSTOMER_PK
+        data_type: BINARY
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: ORDER_PK
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

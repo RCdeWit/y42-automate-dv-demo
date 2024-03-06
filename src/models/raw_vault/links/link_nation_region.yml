@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: link_nation_region
+    columns:
+      - name: NATION_REGION_PK
+        data_type: BINARY
+      - name: NATION_PK
+        data_type: BINARY
+      - name: REGION_PK
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

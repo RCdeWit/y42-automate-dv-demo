@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: sat_inv_part_details
+    columns:
+      - name: PART_PK
+        data_type: BINARY
+      - name: PART_HASHDIFF
+        data_type: BINARY
+      - name: PART_NAME
+        data_type: TEXT
+      - name: PART_MFGR
+        data_type: TEXT
+      - name: PART_BRAND
+        data_type: TEXT
+      - name: PART_TYPE
+        data_type: TEXT
+      - name: PART_SIZE
+        data_type: NUMBER
+      - name: PART_CONTAINER
+        data_type: TEXT
+      - name: PART_RETAILPRICE
+        data_type: NUMBER
+      - name: PART_COMMENT
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: LOAD_DATE
+        data_type: DATE
+      - name: RECORD_SOURCE
+        data_type: TEXT

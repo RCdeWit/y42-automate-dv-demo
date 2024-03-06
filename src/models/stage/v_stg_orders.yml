@@ -1,0 +1,129 @@
+version: 2
+
+models:
+  - name: v_stg_orders
+    columns:
+      - name: ORDERKEY
+        data_type: NUMBER
+      - name: PARTKEY
+        data_type: NUMBER
+      - name: SUPPLIERKEY
+        data_type: NUMBER
+      - name: LINENUMBER
+        data_type: NUMBER
+      - name: QUANTITY
+        data_type: NUMBER
+      - name: EXTENDEDPRICE
+        data_type: NUMBER
+      - name: DISCOUNT
+        data_type: NUMBER
+      - name: TAX
+        data_type: NUMBER
+      - name: RETURNFLAG
+        data_type: TEXT
+      - name: LINESTATUS
+        data_type: TEXT
+      - name: SHIPDATE
+        data_type: DATE
+      - name: COMMITDATE
+        data_type: DATE
+      - name: RECEIPTDATE
+        data_type: DATE
+      - name: SHIPINSTRUCT
+        data_type: TEXT
+      - name: SHIPMODE
+        data_type: TEXT
+      - name: LINE_COMMENT
+        data_type: TEXT
+      - name: CUSTOMERKEY
+        data_type: NUMBER
+      - name: ORDERSTATUS
+        data_type: TEXT
+      - name: TOTALPRICE
+        data_type: NUMBER
+      - name: ORDERDATE
+        data_type: DATE
+      - name: ORDERPRIORITY
+        data_type: TEXT
+      - name: CLERK
+        data_type: TEXT
+      - name: SHIPPRIORITY
+        data_type: NUMBER
+      - name: ORDER_COMMENT
+        data_type: TEXT
+      - name: CUSTOMER_NAME
+        data_type: TEXT
+      - name: CUSTOMER_ADDRESS
+        data_type: TEXT
+      - name: CUSTOMER_NATION_KEY
+        data_type: NUMBER
+      - name: CUSTOMER_PHONE
+        data_type: TEXT
+      - name: CUSTOMER_ACCBAL
+        data_type: NUMBER
+      - name: CUSTOMER_MKTSEGMENT
+        data_type: TEXT
+      - name: CUSTOMER_COMMENT
+        data_type: TEXT
+      - name: CUSTOMER_NATION_NAME
+        data_type: TEXT
+      - name: CUSTOMER_REGION_KEY
+        data_type: NUMBER
+      - name: CUSTOMER_NATION_COMMENT
+        data_type: TEXT
+      - name: CUSTOMER_REGION_NAME
+        data_type: TEXT
+      - name: CUSTOMER_REGION_COMMENT
+        data_type: TEXT
+      - name: CUSTOMER_KEY
+        data_type: NUMBER
+      - name: NATION_KEY
+        data_type: NUMBER
+      - name: REGION_KEY
+        data_type: NUMBER
+      - name: RECORD_SOURCE
+        data_type: TEXT
+      - name: EFFECTIVE_FROM
+        data_type: DATE
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: LINK_CUSTOMER_NATION_PK
+        data_type: BINARY
+      - name: CUSTOMER_NATION_PK
+        data_type: BINARY
+      - name: CUSTOMER_REGION_PK
+        data_type: BINARY
+      - name: NATION_PK
+        data_type: BINARY
+      - name: REGION_PK
+        data_type: BINARY
+      - name: NATION_REGION_PK
+        data_type: BINARY
+      - name: ORDER_PK
+        data_type: BINARY
+      - name: ORDER_CUSTOMER_PK
+        data_type: BINARY
+      - name: LINEITEM_PK
+        data_type: BINARY
+      - name: LINK_LINEITEM_ORDER_PK
+        data_type: BINARY
+      - name: PART_PK
+        data_type: BINARY
+      - name: SUPPLIER_PK
+        data_type: BINARY
+      - name: INVENTORY_PK
+        data_type: BINARY
+      - name: INVENTORY_ALLOCATION_PK
+        data_type: BINARY
+      - name: CUSTOMER_HASHDIFF
+        data_type: BINARY
+      - name: CUSTOMER_NATION_HASHDIFF
+        data_type: BINARY
+      - name: CUSTOMER_REGION_HASHDIFF
+        data_type: BINARY
+      - name: LINEITEM_HASHDIFF
+        data_type: BINARY
+      - name: ORDER_HASHDIFF
+        data_type: BINARY
+      - name: LOAD_DATE
+        data_type: DATE
