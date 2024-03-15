@@ -49,5 +49,13 @@ models:
         data_type: NUMBER
       - name: SUPPLIER_REGION_NAME
         data_type: TEXT
+        tests:
+          - accepted_values:
+              values:
+                - AFRICA
+                - EUROPE
+                - AMERICA
+                - MIDDLE EAST
+                - ASIA
       - name: SUPPLIER_REGION_COMMENT
         data_type: TEXT

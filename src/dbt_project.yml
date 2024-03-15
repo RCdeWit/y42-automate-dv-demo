@@ -26,7 +26,7 @@ vars:
   load_date: '1992-01-08'
 
 models:
-  dbtvault_snowflake_demo:
+  y42_project:
     raw_stage:
       +materialized: view
       +tags:
