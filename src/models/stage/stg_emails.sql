@@ -2,10 +2,11 @@
 source_model: 
   raw_emails: Sheet1
 derived_columns:
+  CUSTOMER_KEY: 'C_CUSTKEY'
   RECORD_SOURCE: '!MARKETING_MAILING_LIST'
   LOAD_DATETIME: '_y42_extracted_at'
 hashed_columns:
-  CUSTOMER_PK: 'C_CUSTKEY'
+  CUSTOMER_PK: 'CUSTOMER_KEY'
   CUSTOMER_HASHDIFF:
     is_hashdiff: true
     columns:
