@@ -26,3 +26,10 @@ sources:
             group: null
             supported_sync_modes:
               - full_refresh
+        columns:
+          - name: C_CUSTKEY
+            data_type: TEXT
+          - name: _Y42_EXTRACTED_AT
+            data_type: TIMESTAMP_NTZ
+          - name: EMAIL
+            data_type: TEXT
