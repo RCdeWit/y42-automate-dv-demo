@@ -1,4 +1,4 @@
-{%- set source_model = "v_stg_orders" -%}
+{%- set source_model = ["v_stg_orders", "v_stg_emails"] -%}
 {%- set src_pk = "CUSTOMER_PK" -%}
 {%- set src_nk = "CUSTOMERKEY" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
