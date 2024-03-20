@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: v_stg_marketing_email
+    meta:
+      experts:
+        users:
+          - alex.higgs@data-vault.com
+    config:
+      y42:
+        apiVersion: v1
