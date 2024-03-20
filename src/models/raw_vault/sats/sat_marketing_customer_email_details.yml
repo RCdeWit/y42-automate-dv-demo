@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: sat_marketing_customer_email_details
+    meta:
+      experts:
+        users:
+          - alex.higgs@data-vault.com
+    config:
+      y42:
+        apiVersion: v1
