@@ -4,7 +4,7 @@ source_model:
 derived_columns:
   CUSTOMERKEY: 'C_CUSTKEY'
   RECORD_SOURCE: '!MARKETING_MAILING_LIST'
-  LOAD_DATETIME: '_y42_extracted_at'
+  LOAD_DATE: '_y42_extracted_at'
 hashed_columns:
   CUSTOMER_PK: 'CUSTOMERKEY'
   CUSTOMER_HASHDIFF:
