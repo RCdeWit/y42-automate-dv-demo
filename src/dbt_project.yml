@@ -21,23 +21,20 @@ target-path: 'target' # directory which will store compiled SQL files
 clean-targets: # directories to be removed by `dbt clean`
   - 'target'
   - 'dbt_packages'
-  
+
 vars:
   load_date: '1992-01-08'
 
 models:
   y42_project:
     raw_stage:
-      +materialized: view
       +tags:
         - 'raw'
     stage:
-      +materialized: view
       +tags:
         - 'stage'
       +enabled: true
     raw_vault:
-      +materialized: incremental
       +tags:
         - 'raw_vault'
       hubs:
