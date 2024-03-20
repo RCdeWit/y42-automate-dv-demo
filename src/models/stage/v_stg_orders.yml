@@ -4,126 +4,188 @@ models:
   - name: v_stg_orders
     columns:
       - name: ORDERKEY
+        description: ""
         data_type: NUMBER
       - name: PARTKEY
+        description: ""
         data_type: NUMBER
       - name: SUPPLIERKEY
+        description: ""
         data_type: NUMBER
       - name: LINENUMBER
+        description: ""
         data_type: NUMBER
       - name: QUANTITY
+        description: ""
         data_type: NUMBER
       - name: EXTENDEDPRICE
+        description: ""
         data_type: NUMBER
       - name: DISCOUNT
+        description: ""
         data_type: NUMBER
       - name: TAX
+        description: ""
         data_type: NUMBER
       - name: RETURNFLAG
+        description: ""
         data_type: TEXT
       - name: LINESTATUS
+        description: ""
         data_type: TEXT
       - name: SHIPDATE
+        description: ""
         data_type: DATE
       - name: COMMITDATE
+        description: ""
         data_type: DATE
       - name: RECEIPTDATE
+        description: ""
         data_type: DATE
       - name: SHIPINSTRUCT
+        description: ""
         data_type: TEXT
       - name: SHIPMODE
+        description: ""
         data_type: TEXT
       - name: LINE_COMMENT
+        description: ""
         data_type: TEXT
       - name: CUSTOMERKEY
-        data_type: NUMBER
+        description: ""
+        data_type: TEXT
       - name: ORDERSTATUS
+        description: ""
         data_type: TEXT
       - name: TOTALPRICE
+        description: ""
         data_type: NUMBER
       - name: ORDERDATE
+        description: ""
         data_type: DATE
       - name: ORDERPRIORITY
+        description: ""
         data_type: TEXT
       - name: CLERK
+        description: ""
         data_type: TEXT
       - name: SHIPPRIORITY
+        description: ""
         data_type: NUMBER
       - name: ORDER_COMMENT
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_NAME
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_ADDRESS
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_NATION_KEY
+        description: ""
         data_type: NUMBER
       - name: CUSTOMER_PHONE
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_ACCBAL
+        description: ""
         data_type: NUMBER
       - name: CUSTOMER_MKTSEGMENT
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_COMMENT
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_NATION_NAME
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_REGION_KEY
+        description: ""
         data_type: NUMBER
       - name: CUSTOMER_NATION_COMMENT
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_REGION_NAME
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_REGION_COMMENT
+        description: ""
         data_type: TEXT
       - name: CUSTOMER_KEY
+        description: ""
         data_type: NUMBER
       - name: NATION_KEY
+        description: ""
         data_type: NUMBER
       - name: REGION_KEY
+        description: ""
         data_type: NUMBER
       - name: RECORD_SOURCE
+        description: ""
         data_type: TEXT
       - name: EFFECTIVE_FROM
+        description: ""
         data_type: DATE
       - name: CUSTOMER_PK
+        description: ""
         data_type: BINARY
       - name: LINK_CUSTOMER_NATION_PK
+        description: ""
         data_type: BINARY
       - name: CUSTOMER_NATION_PK
+        description: ""
         data_type: BINARY
       - name: CUSTOMER_REGION_PK
+        description: ""
         data_type: BINARY
       - name: NATION_PK
+        description: ""
         data_type: BINARY
       - name: REGION_PK
+        description: ""
         data_type: BINARY
       - name: NATION_REGION_PK
+        description: ""
         data_type: BINARY
       - name: ORDER_PK
+        description: ""
         data_type: BINARY
       - name: ORDER_CUSTOMER_PK
+        description: ""
         data_type: BINARY
       - name: LINEITEM_PK
+        description: ""
         data_type: BINARY
       - name: LINK_LINEITEM_ORDER_PK
+        description: ""
         data_type: BINARY
       - name: PART_PK
+        description: ""
         data_type: BINARY
       - name: SUPPLIER_PK
+        description: ""
         data_type: BINARY
       - name: INVENTORY_PK
+        description: ""
         data_type: BINARY
       - name: INVENTORY_ALLOCATION_PK
+        description: ""
         data_type: BINARY
       - name: CUSTOMER_HASHDIFF
+        description: ""
         data_type: BINARY
       - name: CUSTOMER_NATION_HASHDIFF
+        description: ""
         data_type: BINARY
       - name: CUSTOMER_REGION_HASHDIFF
+        description: ""
         data_type: BINARY
       - name: LINEITEM_HASHDIFF
+        description: ""
         data_type: BINARY
       - name: ORDER_HASHDIFF
+        description: ""
         data_type: BINARY
       - name: LOAD_DATE
+        description: ""
         data_type: DATE

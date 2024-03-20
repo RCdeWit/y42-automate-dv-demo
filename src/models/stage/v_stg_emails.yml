@@ -9,3 +9,20 @@ models:
     config:
       y42:
         apiVersion: v1
+    columns:
+      - name: C_CUSTKEY
+        data_type: TEXT
+      - name: EMAIL
+        data_type: TEXT
+      - name: _Y42_EXTRACTED_AT
+        data_type: TIMESTAMP_NTZ
+      - name: CUSTOMERKEY
+        data_type: TEXT
+      - name: RECORD_SOURCE
+        data_type: TEXT
+      - name: LOAD_DATE
+        data_type: TIMESTAMP_NTZ
+      - name: CUSTOMER_PK
+        data_type: BINARY
+      - name: CUSTOMER_HASHDIFF
+        data_type: BINARY
